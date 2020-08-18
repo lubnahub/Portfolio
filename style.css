@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+body{
+    background-color: #191919;
+    /*height:400vh;*/
+    font-family: 'Montserrat', sans-serif;
+}
+
+.container{
+    background-color: #191919;
+}
+.navbar-brand h1{
+    font-weight: bolder;
+    color:#c32865;
+    padding-left:25px;
+}
+#navbar-end a{
+    color:mintcream;
+}
+.nav-b{
+    background-color: #191919;
+}
+.navbar{
+    background-color: #191919;
+    color:#ffffff;
+}
+
+#navbarBasicExample a{
+    color:mintcream;
+}
+#navbar-end a:hover{
+    color:#c32865;
+}
+
+
+.navbar h1,a{
+    color:#c32865;
+    font-weight: bolder;
+    font-style: normal;
+}
+
+#navbarBasicExample a:hover{
+    color:#c32865;
+}
+
+
+.hero-body h1{
+    color:mintcream;
+}
+.hero-body h4{
+    color:mintcream;
+    padding-top:10px;
+    padding-bottom:10px;
+}
+.hero-body p{
+    color:mintcream;
+}
+
+#skills h3{
+    color:mintcream;
+}
+#tiles h3{
+    color:mintcream;
+}
+.cursor{
+    display:inline-block;
+    width:3px;
+    background-color: #ffe4e4;
+    margin-left:10px;
+    animation:blink 1s infinite;
+}
+
+@keyframes blink{
+    0%{background-color: #ffe4e4;}
+    50%{background-color:transparent;}
+    100%{background-color: #ffe4e4;}
+}
+
+#tiles p{
+    background-color: gray;
+    opacity: 0.5;
+    color:#ffffff;
+}
+
+#tiles p:hover{
+    color:#ffffff;
+}
+
+.footer{
+    background-color:#c32865;
+    padding-bottom: 50px;
+}
+.mobile-hidden {
+    display: none;
+  }
+  
+  @media (min-width: 769px) {
+    .mobile-hidden {
+      display: block;
+    }
+  }
